@@ -4,16 +4,20 @@ Este é um projeto simples que utiliza o servidor web NGINX para servir uma apli
 
 ## Estrutura do Projeto
 
-meu_projeto/
-| img/
-| docker-light.svg
-| docker-dark.svg
-| index.html
-| js/
-| script.js
-compose.yml
-Dockerfile
-README.md
+```plaintext
+docker-learning/
+├── meu_projeto/                # Arqivos do Projeto Estático
+|   ├── img/                    # Imagens
+|   |   ├── docker-dark.svg     # Logo do Docker para o tema escuro
+|   |   └── docker-light.svg    # Logo do Docker para o tema claro
+|   ├── js/                     # Scripts
+|   |   └── script.js           # Script de validação do tema do OS
+|   └── index.html              # Estrutura HTML do projeto
+├── compose.yml                 # Configuração com Docker Compose
+├── Dockerfile                  # Dockerflie com NGINX
+├── LICENSE                     # Arquivo de Licença MIT
+└── README.md                   # Readme do projeto
+```
 
 - `index.html`: Página principal do projeto.
 - `script.js`: Script para alternar entre os temas claro e escuro.

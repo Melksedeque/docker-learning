@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olá, mundo!</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-200 dark:bg-gray-900">
+    <div class="flex flex-col justify-center items-center h-screen">
+      <h1 class="text-3xl font-bold mb-5 dark:text-white">
+        Olá, mundo! Estou rodando dentro de um container com NGINX!
+      </h1>
+      <figure class="mt-5 w-sm">
+        <img
+          src="./img/docker-light.svg"
+          alt="Logo do Docker"
+          class="flex dark:hidden"
+        />
+        <img
+          src="./img/docker-dark.svg"
+          alt="Logo do Docker"
+          class="hidden dark:flex"
+        />
+        <figcaption class="sr-only">Logo do Docker</figcaption>
+      </figure>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

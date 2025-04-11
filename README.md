@@ -1,6 +1,6 @@
 # Meu Projeto com NGINX e Docker
 
-Este é um projeto simples que utiliza o servidor web NGINX para servir uma aplicação estática. O projeto inclui suporte para temas claro e escuro, com base nas preferências do usuário ou do sistema operacional.
+Este projeto visa ilustrar uma arquitetura simplificada para servir aplicações estáticas utilizando o servidor web NGINX. Além da eficiência na entrega de conteúdo, o projeto incorpora uma experiência de usuário aprimorada através do suporte automático a temas claro e escuro, com base nas configurações do usuário ou do sistema.
 
 ## Estrutura do Projeto
 
